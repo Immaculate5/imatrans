@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <title>IMATRANS App</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="">imatrans.</a>
+            </div>
+            <div class="item" >
+                <a href="./index.html">home</a>
+                <a href="#about">about</a>
+                <a href="#contact">contact us</a>
+                <a href="form.html">Signup</a>
+                <a href="login.php">login</a>
+            </div>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="hero-content container">
+                <h1 class="">
+                    Welcome to Imatrans
+                </h1>
+                <p class="hero-descr">
+                    <span>Looking For a ride?</span> <br> Look no further!We offer transport solutions,Where innovation meets sustainability. Join us in shaping the future of how we move,connect and thrive in the transport network!
+                </p>
+                <div class="hero-btn">
+                    <a href="./form.html" class="btn">
+                        Book a Ride Now
+                    </a>
+                </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about container section">
+            <h2 class="title">
+                About Us
+            </h2>
+            <p class="about-descr">
+                <span>Imatrans,</span> <br> is an online transportation company that offers a wide variety of transportation services.Where innovation meets sustainability. Explore our comprehensive range of efficient and reliable transport solutions, desined to meet your needs with convenience, safety, and innovation at the forefront of our services.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact container section">
+            <h1 class="title">Contact Us</h1>
+
+            <div class="contact-content ">
+                <div class="contact-form">
+                    <p class="subtitle">
+                        Have a Question or Suggestion? Feel Free to
+                        <span class="blue-text">Contact me</span>
+                    </p>
+                    <form action="https://formspree.io/f/xbjnaljq" method="POST" class="form__wrapper">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required />
+
+                        <input type="email" name="email" id="email" placeholder="Your Email" required />
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required"></textarea>
+                        <input type="submit" class="btn" />
+                    </form>
+                </div>
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127420.71796964653!2d39.735097473504666!3d-3.610935796917007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x183fdd32a5c6e23d%3A0x56833d42176236ae!2sKilifi%20Township!5e0!3m2!1sen!2ske!4v1710156651420!5m2!1sen!2ske"  style="border:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class=" footer container section">
+            <div class="footer-content">
+                <div class="logo">
+                    <a href="#hero">IMATRANS.</a>
+                </div>
+                <div class="footer-item">
+                    <a href="./index.html">home</a>
+                    <a href="#about">about</a>
+                    <a href="#contact">contact us</a>
+
+                    <a href="form.html">Signup</a>
+                    <a href="login.php">login</a>
+                </div>
+                <div class="footer-item">
+                    <a href="">Terms of Use</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Contact Us</a>
+                </div>
+                <div class="footer-item">
+                    <a href="">About Us</a>
+                    <a href="">Careers</a>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p class="subtitle">Built with ❤️ by
+                    <a href="https://Immaculate5.github.io/Portfolio" target="_blank">Immaculate Nyambura
+                    </a> - &copy; 2024
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- <main>
+        <div id="requestForm">
+            <form action="db.php" method="post">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" placeholder="Enter your name">
+
+            <label for="pickupLocation">Pickup Location:</label>
+            <input type="text" id="pickupLocation" placeholder="Enter pickup location">
+
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" placeholder="Enter destination">
+
+            <label for="ride charges">Ride Price:</label>
+            <input type="number" id="ride charges" placeholder="Enter ride price charged">
+
+            <button id="requestButton" onclick="requestCab()">request Cab</button>
+        </form>
+        </div>
+
+        <div id="rideInfo" style="display:none;">
+            <p id="confirmationMessage"></p>
+
+            <img id="cabImage" src="" alt="cab Image">
+        </div>
+    </main> -->
+
+    <script src="app.js"></script>
+
+
+
+</body>
+</html>
+
+</form>
